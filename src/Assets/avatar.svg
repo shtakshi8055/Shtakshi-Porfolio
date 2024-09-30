@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#6a5acd" />
+  
+  <!-- Hair -->
+  <path d="M55 70 Q100 20, 145 70 Q135 130, 55 130 Z" fill="#ffd700" />
+  <path d="M50 90 Q70 60, 100 60 Q130 60, 150 90 Q135 110, 65 110 Z" fill="#ffd700" />
+
+  <!-- Face -->
+  <circle cx="100" cy="90" r="40" fill="#ffcccb" />
+
+  <!-- Eyes -->
+  <circle cx="85" cy="85" r="5" fill="#000" />
+  <circle cx="115" cy="85" r="5" fill="#000" />
+
+  <!-- Nose -->
+  <path d="M100 90 Q105 95, 100 100" fill="none" stroke="#000" stroke-width="1"/>
+
+  <!-- Mouth -->
+  <path d="M90 105 Q100 110, 110 105" stroke="#000" stroke-width="1" fill="none" />
+
+  <!-- Shirt -->
+  <rect x="70" y="120" width="60" height="30" fill="#1e90ff" />
+  <path d="M70 120 Q100 140, 130 120" fill="#4682b4" />
+
+  <!-- Neck -->
+  <rect x="90" y="110" width="20" height="10" fill="#ffcccb" />
+</svg>
