@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
+import teamCollab from "../../Assets/Projects/teamCollab.webp";
 import Ecommerce from "../../Assets/Projects/Ecommerce.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import todolist from "../../Assets/Projects/todolist.png";
+import mindsweeper from "../../Assets/Projects/mindsweeper.png";
 
 function Projects() {
   return (
@@ -42,51 +41,26 @@ function Projects() {
               demoLink="https://to-do-list-swart-beta-93.vercel.app/"
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={mindsweeper}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Mindsweeper"
+              description=" A console-based implementation of the classic Minesweeper game using Python. This project demonstrates game logic, including grid generation, bomb placement, user input handling, and win/lose conditions. The game features an interactive user interface with a grid display, allowing players to uncover cells while avoiding hidden mines. This project helped improve my problem-solving skills and knowledge of Python data structures."
+              ghLink="https://github.com/shtakshi8055/Minesweeper"
+             // demoLink="https://to-do-list-swart-beta-93.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={teamCollab}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Team-Collab"
+              description=" This Team Management and Task Assignment app is designed to streamline collaboration within teams. Built using React.js and Firebase, it allows users to create teams, assign tasks, and manage workflows efficiently. The real-time synchronization ensures that all team members are kept up-to-date with task progress. The app features intuitive interfaces for creating teams, managing members, and assigning tasks, making it an ideal tool for teams of all sizes looking to improve their project management and collaboration. Whether you’re managing a small team or handling multiple projects, this app simplifies the entire process."
+              ghLink="https://github.com/shtakshi8055/Team-Collab"
+              demoLink="https://team-collab-rust.vercel.app/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
