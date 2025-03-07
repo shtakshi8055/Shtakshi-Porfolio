@@ -27,7 +27,7 @@ function Projects() {
               title="MyStore"
               description="Discover a seamless shopping experience with our cutting-edge e-commerce app, designed to bring your favorite products to your fingertips. With intuitive navigation, secure payments, and personalized recommendations, we make online shopping easier and more enjoyable than ever."
               ghLink="https://github.com/shtakshi8055/E-CommerceApp"
-              demoLink="https://e-commerce-app-sigma-silk.vercel.app/"
+              demoLink="https://ecommerce-app-zeta-nine.vercel.app/"
             />
           </Col>
 
